@@ -1,0 +1,101 @@
+import java.math.BigInteger;
+import java.util.*;
+
+public class FibonacciPartialSum {
+
+    private static BigInteger orig_func(int n) {
+        if (n <= 1)
+            return BigInteger.valueOf(n);
+
+        ArrayList<BigInteger> numbers = new ArrayList<BigInteger>();
+        numbers.add(BigInteger.ONE);
+        numbers.add(BigInteger.ONE);
+
+        for(int i = 2; i<n; i++) {
+            numbers.add(numbers.get(i-1).add(numbers.get(i-2)));
+        }
+        return numbers.get(n-1);
+    }
+
+    private static BigInteger calc_fib(long n ) {
+        BigInteger m = BigInteger.TEN;
+        if (n <= 1)
+            return BigInteger.valueOf(n);
+        if(m.equals(1))
+            return BigInteger.ONE;
+        if(m.equals(0))
+            throw new IllegalArgumentException("Failed");
+
+        ArrayList<BigInteger> numbers = new ArrayList<BigInteger>();
+        BigInteger first =  BigInteger.ONE;
+        BigInteger second =  BigInteger.ONE;
+        BigInteger current;
+        BigInteger firstM ;
+//        BigInteger secondM ;
+        BigInteger currentM ;
+        int counter = 3;
+        for(long i = 3; i<=n; i++) {
+            current = first.add(second);
+            first = second;
+            second = current;
+            currentM = current.mod(m);
+            firstM = first.mod(m);
+//            System.out.println("firstM->"+firstM.toString() +"currentM->"+currentM.toString() + "counter->" + Integer.toString(counter));
+            if(firstM.equals(BigInteger.ZERO) && currentM.equals(BigInteger.ONE))
+            {
+                counter = counter-1;
+                break;
+            }
+            counter = counter+1;
+
+        }
+//        System.out.println(counter);
+//        System.out.println(n%counter);
+        Long theLong  = n%counter;
+        Integer i = (int) (long) theLong;
+//        System.out.println(orig_func(i));
+//        System.out.println(orig_func(i).mod(m));
+        return orig_func(i+2).subtract(BigInteger.ONE);
+
+    }
+
+
+    private static BigInteger getFibonacciPartialSumFast(long from, long to){
+        if (to<=1){
+            return BigInteger.valueOf(to);
+        }
+        if (from==0){
+            return calc_fib(to).mod(BigInteger.TEN);
+        }
+//        System.out.println(calc_fib(to));
+//        System.out.println(calc_fib(from));
+        return calc_fib(to ).subtract(calc_fib(from-1)).mod(BigInteger.TEN);
+    }
+
+    private static long getFibonacciPartialSumNaive(long from, long to) {
+        long sum = 0;
+
+        long current = 0;
+        long next  = 1;
+
+        for (long i = 0; i <= to; ++i) {
+            if (i >= from) {
+                sum += current;
+            }
+
+            long new_current = next;
+            next = next + current;
+            current = new_current;
+        }
+
+        return sum % 10;
+    }
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        long from = scanner.nextLong();
+        long to = scanner.nextLong();
+        System.out.println(getFibonacciPartialSumFast(from, to));
+    }
+}
+
