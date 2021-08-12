@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithm.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithm-build.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithm-build.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/practice_java.iml" filepath="$PROJECT_DIR$/practice_java.iml" />
+>>>>>>> ad34ca3d5bf16617b894af4f2ac28dd4a274b2a3
     </modules>
   </component>
 </project>

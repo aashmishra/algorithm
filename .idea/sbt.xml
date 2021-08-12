@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
+<<<<<<< HEAD
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -13,5 +14,9 @@
         <option name="sbtVersion" value="1.5.2" />
       </SbtProjectSettings>
     </option>
+=======
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="C:/Program Files/Java/jdk1.8.0_211" />
+>>>>>>> ad34ca3d5bf16617b894af4f2ac28dd4a274b2a3
   </component>
 </project>
