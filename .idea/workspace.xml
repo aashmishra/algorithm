@@ -7,7 +7,14 @@
     <bookmark url="file://$PROJECT_DIR$/src/PointsAndSegments.java" description="}" line="71" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acc4f44d-2f53-4d8d-a83e-ed4d1707ae37" name="Changes" comment="" />
+    <list default="true" id="acc4f44d-2f53-4d8d-a83e-ed4d1707ae37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algo/binarySelect/FindFirstAndLastOccurrence.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algo/binarySelect/FindFirstAndLastOccurrence.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
