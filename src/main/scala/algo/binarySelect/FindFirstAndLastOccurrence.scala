@@ -9,6 +9,7 @@ object FindFirstAndLastOccurrence  extends App {
     if (end<start) index
     else {
       val mid=start+(end-start)/2
+
       arr(mid) match {
         case midElem if midElem>search =>binarySelectStartEnd(arr,start,mid-1,search,index,findType)
         case midElem if midElem<search => binarySelectStartEnd(arr,mid+1,end,search,index,findType)

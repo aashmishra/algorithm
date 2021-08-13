@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/PointsAndSegments.java" description="}" line="71" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c15be8-a558-499a-a15a-9b978448728d" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="acc4f44d-2f53-4d8d-a83e-ed4d1707ae37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,144 +16,30 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="algorithm" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="practice_java" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PointSegment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="e#738#798#0" />
-                <element signature="e#991#1748#1" />
-                <element signature="e#1049#1483#1" />
-                <element signature="e#1249#1339#1" />
-                <element signature="e#1381#1469#1" />
-                <element signature="e#1500#1661#1" />
-                <element signature="e#1768#1849#1" />
-                <element signature="e#1869#1951#1" />
-                <element signature="e#1952#1985#0" />
-                <element signature="method#sort#0;class#PointSegment#0" />
-                <element signature="e#2215#2451#1" />
-                <element signature="e#3161#3214#0" />
-                <element signature="e#3703#3800#1" />
-                <element signature="e#4056#4112#1" />
-                <element signature="e#4329#4550#1" />
-                <element signature="e#4387#4536#1" />
-                <element signature="e#4461#4518#1" />
-                <element signature="e#4781#4795#0" />
-                <element signature="e#5101#5146#0" />
-                <element signature="e#5207#5240#0" />
-                <element signature="e#5375#5412#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ChangeDP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrimitiveCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#optimal_sequence#0;class#PrimitiveCalculator#0" />
-                <element signature="method#optimal_sequences#0;class#PrimitiveCalculator#0" />
-                <element signature="method#main#0;class#PrimitiveCalculator#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CoveringSegments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="method#optimalPoints#0;class#CoveringSegments#0" />
-                <element signature="class#Segment#0;class#CoveringSegments#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EditDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Knapsack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" selection-start-line="30" selection-end-line="35" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Partition3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3725">
-              <caret line="152" selection-start-line="152" selection-end-line="155" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PointsAndSegments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="30" selection-end-line="130" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,6 +69,9 @@
     <dirStrings>
       <dir>C:\dev\development\git\cmp\practice_java\src</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -240,6 +130,7 @@
     <option name="width" value="1245" />
     <option name="height" value="640" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -292,18 +183,6 @@
       <recent name="C:\dev\development\git\cmp\practice_java\lib" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.Partition3">
     <configuration name="ChangeDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChangeDP" />
@@ -349,29 +228,6 @@
         <item itemvalue="Application.ChangeDP" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../../Paar/2-paar-data-preparation/scala" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ScalaBasic" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../Audience-Selection-Science" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../Cluster_Deployment" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../cat-pipeline-launcher" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../category-model-pipeline" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../core" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../destina" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../em_cmp_integration" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../es-data-loader" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../featuresgenerator-lite" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../nomination_scoring_client" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../product-model-pipeline" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../scoring" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../targeting" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../practice" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../traditional_allocation" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -445,19 +301,30 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/WeightQuickUnion.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/FibonacciHuge.java</url>
           <line>4</line>
-          <properties class="FibonacciHuge" method="orig_func">
+          <properties class="FibonacciHuge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
@@ -465,13 +332,17 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Comparator.java</url>
           <line>149</line>
-          <properties class="java.util.Comparator" method="compare">
+          <properties class="java.util.Comparator">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Percolate.java">
